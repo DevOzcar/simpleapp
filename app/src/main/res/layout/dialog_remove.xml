@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:background="@color/black_opacity"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:text="@string/msg_remove_contact"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            style="@style/DefaultTextView"/>
+
+    <Button
+            android:id="@+id/btnCancel"
+            android:text="@string/lbl_cancel"
+            style="@style/DefaultButton"/>
+    <Button
+            android:id="@+id/btnRemove"
+            android:text="@string/lbl_remove"
+            style="@style/DefaultButton"/>
+
+</LinearLayout>

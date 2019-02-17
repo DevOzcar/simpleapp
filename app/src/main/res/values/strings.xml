@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">simpleapp</string>
+    <string name="lbl_btn_login">Iniciar sesión</string>
+    <string name="hint_user">Usuario</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="title_contacts">Contactos</string>
+    <string name="title_add_contact">Agregar Contacto</string>
+    <string name="lbl_save">Guardar</string>
+    <string name="hint_name">Nombre</string>
+    <string name="hint_lastname">Apellido</string>
+    <string name="hint_age">Edad</string>
+    <string name="base_digits">0123456789</string>
+    <string name="hint_phone">Teléfono</string>
+    <string name="lbl_cancel">Cancelar</string>
+    <string name="lbl_remove">Eliminar</string>
+    <string name="msg_remove_contact">Desea eliminar al contacto?</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        tools:context=".login.LoginActivity">
+
+    <EditText
+            android:id="@+id/edtUsername"
+            android:hint="@string/hint_user"
+            android:inputType="text"
+            android:text="harvx_190878"
+            style="@style/DefaultEditText"/>
+
+    <EditText
+            android:id="@+id/edtPassword"
+            android:hint="@string/hint_password"
+            android:text="supersecretpassword"
+            android:inputType="textPassword"
+            style="@style/DefaultEditText"/>
+
+    <Button
+            android:id="@+id/btnLogin"
+            android:onClick="onStartLogin"
+            android:enabled="false"
+            android:text="@string/lbl_btn_login"
+            style="@style/DefaultButton"/>
+
+</LinearLayout>
