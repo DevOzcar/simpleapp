@@ -17,6 +17,7 @@ import com.devfx.simpleapp.home.HomeActivity
 import com.devfx.simpleapp.models.Contacts
 import com.devfx.simpleapp.models.Credential
 import com.vicpin.krealmextensions.deleteAll
+import kotlinx.android.synthetic.main.activity_main.*
 
 class LoginActivity : AppCompatActivity(), LoginContract.View, TextWatcher {
 
@@ -45,6 +46,9 @@ class LoginActivity : AppCompatActivity(), LoginContract.View, TextWatcher {
 
         edtUser.addTextChangedListener(this)
         edtPassword.addTextChangedListener(this)
+
+
+       edtUsername.text
     }
 
     fun blockComponents(value: Boolean) {
